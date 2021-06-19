@@ -27,6 +27,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-static@next":
+  version "1.0.0-next.13"
+  resolved "https://registry.nlark.com/@sveltejs/adapter-static/download/@sveltejs/adapter-static-1.0.0-next.13.tgz#5cba8f2905a5a7b956c2663d73ac02f7eb6da7c4"
+  integrity sha1-XLqPKQWlp7lWwmY9c6wC9+ttp8Q=
+
 "@sveltejs/kit@next":
   version "1.0.0-next.115"
   resolved "https://registry.nlark.com/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.115.tgz#d24c5810f86c2efec33cf8dc17d9f65f12104e46"

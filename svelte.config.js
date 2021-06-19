@@ -1,18 +1,12 @@
-/** @type {import('@sveltejs/kit').Config} */
-// const config = {
-// 	kit: {
-// 		// hydrate the <div id="svelte"> element in src/app.html
-// 		target: '#svelte'
-// 	}
-// };
+import adapter from '@sveltejs/adapter-static';
 
-const sveltePreprocess = require('svelte-preprocess');
-const pkg = require('./package.json');
-
-// export default config;
-
-module.exports = {
-	  kit: {
-          adapter: require('@sveltejs/adapter-static')(),
-	  }
+export default {
+	kit: {
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: null
+		})
+	}
 };
